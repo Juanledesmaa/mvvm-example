@@ -14,6 +14,10 @@
 Run employees.xcodeproj and compile for usage
 ```
 
+## ScreenShots
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Demo Image](https://user-images.githubusercontent.com/19560736/100177820-89bebd00-2eb1-11eb-804f-2ab3245c80ab.png)
+
 ## Usage
 
 ```sh
