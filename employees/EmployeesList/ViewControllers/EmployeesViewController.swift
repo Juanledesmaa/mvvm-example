@@ -14,6 +14,7 @@ class EmployeesViewController: UIViewController {
         let tableView = UITableView()
         tableView.register(EmployeeTableViewCell.self, forCellReuseIdentifier: "EmployeeTableViewCell")
         tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.allowsSelection = true
         return tableView
     }()
     
@@ -36,6 +37,9 @@ class EmployeesViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         setup()
+        
+//        let gesture = UITapGestureRecognizer(target: self, action:  #selector(self.touchEvent))
+//        self.view.addGestureRecognizer(gesture)
     }
     
     private func setup() {
@@ -68,6 +72,10 @@ class EmployeesViewController: UIViewController {
             self.tableView.dataSource = self.dataSource
             self.tableView.reloadData()
         }
+    }
+
+    @objc func touchEvent(sender: UITapGestureRecognizer) {
+        print("hubo un touch event")
     }
 }
 
