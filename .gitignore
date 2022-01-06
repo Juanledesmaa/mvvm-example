@@ -1,0 +1,12 @@
+### Pods Libraries ###
+/Pods
+*.DS_Store
+.DS_Store
+*.swp
+*~.nib
+xcuserdata
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+employees.xcodeproj/xcuserdata/*
+employees.xcodeproj/project.xcworkspace/xcuserdata/*

@@ -14,6 +14,7 @@ class EmployeesViewController: UIViewController {
         let tableView = UITableView()
         tableView.register(EmployeeTableViewCell.self, forCellReuseIdentifier: "EmployeeTableViewCell")
         tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.allowsSelection = true
         return tableView
     }()
     

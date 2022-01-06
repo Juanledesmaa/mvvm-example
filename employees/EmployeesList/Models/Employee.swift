@@ -8,6 +8,6 @@
 import Foundation
 
 struct Employee: Codable {
-    let id, employeeSalary, employeeAge: Int
+    let id: Int
     let employeeName, profileImage: String
 }
