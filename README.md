@@ -6,12 +6,12 @@
   </a>
 </p>
 
-> Simple Project that consists of a view with a list of contacts that we get using a mock service, showcasing a simple example for the MVVM architecture 
+> Simple Project that consists of a view with a list of contacts that we get using a mock service, showcasing a simple example for the MVVM architecture. There's a folder with swizzling methods that will capture all the user taps with the coordinate and the timestamp and would dump them into the console when the app is sent to the background
 
 ## Install
 
 ```sh
-Run employees.xcodeproj and compile for usage
+Run employees.xcodeproj and hit the `Run` button for usage
 ```
 
 ## ScreenShots
@@ -21,7 +21,7 @@ Run employees.xcodeproj and compile for usage
 ## Usage
 
 ```sh
-Run employees.xcodeproj and compile for usage
+Run employees.xcodeproj and hit the `Run` button for usage
 ```
 
 ## Author
